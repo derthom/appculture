@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">appculture</string>
+    <string name="welcome">Welcome,Please enter your name</string>
+    <string name="pollock">This Artwork is by Jackson Pollock</string>
+    <string name="Intro">Hello, Welcome to the Collective!</string>
+    <string name="Description">This is an app resume.I Hope you like it</string>
+    <string name="resume">Touch to start</string>
+    <string name="dummy_button">Enter</string>
+    <string name="dummy_content">The\nIntellectual\nCollective</string>
+    <string name="title_activity_third__scroll">Summary</string>
+    <string name="large_text">"Have an interest in Software, Culture, Science and Philosophy and enjoy pursuing tiny technical/creative DIY projects.\n\n\n"
+
+
+"Been exposed to nascent technologies like Big-Data encryption ,CX(Oracle Service Cloud) and a bunch of new APIs from Java EE and .NET.\n\n\n"
+
+
+"Inspirational personalities I look up to include Subramanyan Chandrasekhar, Stephen Hawking, Anthony Keidis, Roger Waters and Larry Ellison."
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>
