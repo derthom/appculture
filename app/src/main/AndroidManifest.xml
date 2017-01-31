@@ -24,7 +24,16 @@
         <activity
             android:name=".third_Scroll"
             android:label="@string/title_activity_third__scroll"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tab_four"
+            android:label="@string/title_activity_tab_four"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".five_tab"
+            android:label="@string/title_activity_five_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".six"></activity>
     </application>
 
 </manifest>
