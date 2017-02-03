@@ -33,7 +33,14 @@
             android:name=".five_tab"
             android:label="@string/title_activity_five_tab"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".six"></activity>
+        <activity android:name=".six" />
+        <activity
+            android:name=".seven_tab"
+            android:label="@string/title_activity_seven_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".seven_1" />
+        <activity android:name=".seven_2" />
+        <activity android:name=".seven_3"></activity>
     </application>
 
 </manifest>

@@ -11,25 +11,46 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.derrthom.appculture.first">
 
-    <EditText
+    <TextView
+        android:text="@string/welcome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="none"
-        android:text="@string/welcome"
-        android:ems="10"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/editText3"
-        android:fontFamily="sans-serif"
+        android:id="@+id/textView17"
+        android:textSize="18sp"
         android:textStyle="normal|bold"
-        android:textColor="?android:attr/textColorPrimaryDisableOnly"
-        android:clickable="false"
-        android:focusable="false"
-        android:focusableInTouchMode="false"
-        android:hapticFeedbackEnabled="false"
-        android:isScrollContainer="false"
-        android:linksClickable="false"
-        android:textIsSelectable="false" />
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pollock"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/editTextname"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp" />
+
+    <TextView
+        android:text="@string/pollock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="19dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/dummy_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstb"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:textColorLink="@android:color/holo_red_light"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentEnd="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -37,37 +58,7 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/editTextname"
-        android:layout_below="@+id/editText3"
-        android:layout_alignParentStart="true"
-        android:singleLine="false" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/pollock"
-        android:id="@+id/imageView2"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/editTextname" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="@string/pollock"
-        android:ems="10"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/editText6"
-        android:textStyle="normal|bold" />
-
-    <Button
-        android:text="@string/dummy_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView2"
-        android:id="@+id/firstb"
-        android:layout_alignParentEnd="true"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:textColorLink="@android:color/holo_red_light"
-        android:textColor="@android:color/holo_red_dark" />
+        android:singleLine="false"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

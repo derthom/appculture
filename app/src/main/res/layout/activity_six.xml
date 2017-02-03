@@ -32,16 +32,6 @@
         android:textStyle="normal|bold"
         android:layout_alignParentEnd="true" />
 
-    <RatingBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/ratingBar4"
-        android:rating="3"
-        android:clickable="false"
-        android:contextClickable="false"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
-
     <TextView
         android:text="Java,C,C++,C#"
         android:layout_width="match_parent"
@@ -72,14 +62,23 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView10" />
 
+    <Button
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/move" />
+
     <TextView
         android:text="SOAP,REST services,CX Cloud"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView11"
         android:textSize="24sp"
+        android:layout_below="@+id/ratingBar2"
         android:layout_alignParentStart="true"
-        android:layout_above="@+id/ratingBar3" />
+        android:layout_marginTop="12dp" />
 
     <RatingBar
         android:layout_width="wrap_content"
@@ -88,8 +87,7 @@
         android:rating="3.5"
         android:clickable="false"
         android:contextClickable="false"
-        android:layout_marginBottom="33dp"
-        android:layout_above="@+id/textView12"
+        android:layout_below="@+id/textView11"
         android:layout_alignParentStart="true" />
 
     <TextView
@@ -98,15 +96,19 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView12"
         android:textSize="24sp"
+        android:layout_below="@+id/ratingBar3"
         android:layout_alignParentStart="true"
-        android:layout_above="@+id/ratingBar4" />
+        android:layout_marginTop="15dp" />
 
-    <Button
-        android:text="Next"
+    <RatingBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:id="@+id/move" />
+        android:id="@+id/ratingBar4"
+        android:rating="3"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp" />
 
 </RelativeLayout>
